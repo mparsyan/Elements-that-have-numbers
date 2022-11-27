@@ -5,7 +5,7 @@ std::vector<std::string> elem_num(std::vector<std::string> v)
 {
     bool flag = false;
     std::vector<std::string> v1;
-    for (int i = 0; i < v.size(); i++) // <"Hello" "1student" "bestfrends4ever" "bye">
+    for (int i = 0; i < v.size(); i++)
     {
         for (int j = 0; j < v[i].size(); j++)
         {
@@ -46,8 +46,3 @@ int main()
     std::cout << '\n';
     return 0;
 }
-
-// std::cout << "Please enter the vector: ";
-//     elem_num({"Hello", "1student", "bestfrends4ever", "bye"});
-//     return 0;
-// }
