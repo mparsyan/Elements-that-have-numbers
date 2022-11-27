@@ -38,6 +38,11 @@ int main()
         vec.push_back(elem);
     }
     vec1 = elem_num(vec);
+    if (vec1.size() == 0)
+    {
+        std::cout << "Please enter the correct vectors!\n";
+        return 0;
+    }
     std::cout << "The result: ";
     for (int i = 0; i < vec1.size(); i++)
     {
